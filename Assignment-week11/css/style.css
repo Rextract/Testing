@@ -2,6 +2,7 @@
     font-family: sans-serif;
     width: 1024px;
     margin: auto;
+    box-sizing: border-box;
 }
 
 h1{
@@ -15,18 +16,19 @@ h1{
 }
 
 .mainheader{
-    font-size: 17px;
+    background-color: rgb(245, 222, 179);
     border-radius: 2px;
     border: 1.5px solid;
-    box-sizing: border-box;
-    background-color: wheat;
     margin-top: 15px;
     margin-bottom: 15px;
     margin-left: 15px;
-    margin-right: 80%;
-    padding: 12px;
-    text-align: center;
+    margin-right: 70%;
+    padding: 30px;
+    text-align: left;
+    font-size: 20px;
     width: auto;
+    height: auto;
+    
 }
 
 .subheader{
@@ -41,13 +43,24 @@ h1{
     text-align: left;
     width: auto;
     height: auto;
+    font-size: 18px;
 
 }
 
 aside{
     background-color: rgb(167, 216, 167);
-    width: 25%;
+    width: 15%;
     height: 100%;
+    text-align: left;
+    position: absolute;
+    left: 60%;
+    top: 0px;  
+    padding-top: 60%;
+    padding: 10px;
+    font-size: 28px;
+    z-index: -1;
+    border-radius: 2px;
+    border: 1.5px solid;
     
 }
 
@@ -92,19 +105,14 @@ nav{
     justify-content: center;
     align-content: center;
     background-color: cornflowerblue;
+    
 }
 
-
-
-li.navmenu {
-
+li.navmenu{
     display: inline;
 }
 
-
-
-
-
-.pictureframe{
-    
+img{
+    width: 200px;
+    height: 300px;
 }
