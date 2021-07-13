@@ -80,26 +80,28 @@ nav {
     padding: 0px;
     width: 25%;
     border-radius: 0px;
-    
-    background-color: grey;
     height: 50px;
-    font-size: 16px;
+   
+
+
 
 }
 
 .navmenu{
-
     display: inline-flex;
     list-style: none;
     text-decoration: white;
     float: left;
+    background-color: grey;
+    height: 50px;
+    font-size: 16px;
+    margin-top: -40px;
   
   
 }
 
 
 nav ol li a{
-    
     margin: 14px;
     text-decoration: none;
     color: white;
@@ -128,7 +130,6 @@ article{
     float: left;
     
     
-    
     width: 250px;
     height: 400px;
     padding: 5%;
@@ -140,7 +141,6 @@ article{
     margin-right: 30px;
   
     margin-left: 70px;
-    
 
 
 }
