@@ -70,7 +70,8 @@ h1{
 }
 
 footer{
-    background-color: darkgray;
+    background-color: rgb(153, 59, 207);
+    padding: 20px;
 }
 
 nav {
