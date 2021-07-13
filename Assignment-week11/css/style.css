@@ -1,8 +1,7 @@
 *{
     font-family: sans-serif;
     width: 1024px;
-    margin: auto;
-    box-sizing: border-box;
+    margin: auto;  
 }
 
 h1{
@@ -49,8 +48,8 @@ h1{
 
 aside{
     background-color: rgb(167, 216, 167);
-    width: 15%;
-    height: 100%;
+    width: 11.32%;
+    height: auto;
     text-align: left;
     position: absolute;
     left: 60%;
@@ -61,7 +60,6 @@ aside{
     z-index: -1;
     border-radius: 2px;
     border: 1.5px solid;
-    
 }
 
 body{
@@ -74,45 +72,42 @@ body{
 
 
 
-
-/* nav{
-    justify-content: space-between;
-    background-color: cornflowerblue;
-    border-radius: 2px;
-    border: 1.5px solid;
-    position: absolute;
-    top: 0px;
-    width: 50%;
-    z-index: 1;
-    box-sizing: border-box;
-    
-}
-*/
-
-
 nav{
-    text-align: center;
-    position: fixed;
-    top: 0px;  
-    padding-top: 10px;
+    
+    position: absolute;
+    top: 0px; 
+    font-size: 35px;
     padding: 10px;
     font-size: 28px;
-    width: auto;
     border: 1.5px solid;
-    box-sizing: content-box;
+    box-sizing: border-box;
+    float: right;
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-content: center;
+    align-content: center; 
+    flex-flow: inherit;
+    
+
+    
+    
+    
     background-color: cornflowerblue;
+    
     
 }
 
 li.navmenu{
+  
     display: inline;
 }
 
 img{
     width: 200px;
     height: 300px;
+}
+
+article{
+    display: inline-block;
 }
