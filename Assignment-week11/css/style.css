@@ -110,7 +110,15 @@ nav ol li a{
 
 }
 
+.myli1{
+ font-weight: bold;
+}
 
+
+#myliTest{
+    font-weight: bold;
+}
+   
 img{
     width: 200px;
     height: 300px;
@@ -130,7 +138,6 @@ article{
     float: right;
     float: left;
     
-    
     width: 250px;
     height: 400px;
     padding: 5%;
@@ -142,6 +149,5 @@ article{
     margin-right: 30px;
   
     margin-left: 70px;
-
-
+    
 }
